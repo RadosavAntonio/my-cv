@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: radial-gradient(#EB9373,#831923);
+  background-image: radial-gradient($color-apricot, $color-merlot);
   // appricot and merlot colors
 }
 
@@ -15,13 +15,13 @@
   padding-bottom: 0.2rem;
   font-size: 4rem;
   text-transform: uppercase;
-  color: white;
+  color: $color-white;
 }
 
 .landing-page__title {
   font-size: 2.8rem;
   text-transform: capitalize;
-  color: black;
+  color: $color-black;
 }
 
 .landing-page__social {
@@ -31,7 +31,7 @@
 }
 
 .landing-page__label {
-  color: black;
+  color: $color-black;
   padding: 0.1rem 0.3rem;
   font-size: 2rem;
   cursor: pointer;
@@ -55,12 +55,12 @@
 
 .landing-page__box-body {
   display: inline-block;
-  border: 0.2rem solid black;
+  border: 0.2rem solid $color-black;
   border-radius: 0.5rem;
   padding: 0.8rem;
   margin-top: 0.5rem;
   position: relative;
-  color: white;
+  color: $color-white;
 }
 
 .landing-page__box-header {
@@ -74,7 +74,7 @@
 
 .landing-page__box-info,
 .landing-page__box-close {
-  background: black;
+  background: $color-black;
   padding: 0.4rem;
   white-space: nowrap;
   line-height: 1.5rem;
@@ -85,7 +85,7 @@
 .landing-page__box-info {
   border-bottom-left-radius: 0.5rem;
   flex-grow: 1;
-  color: white;
+  color: $color-white;
 }
 
 .landing-page__box-close {
@@ -98,7 +98,7 @@
 .landing-page__box-link,
 .landing-page__box-link:visited,
 .landing-page__box-message {
-  color: white;
+  color: $color-white;
 }
 
 .landing-page__box-link,

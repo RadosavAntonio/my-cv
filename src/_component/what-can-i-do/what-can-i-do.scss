@@ -1,23 +1,28 @@
+.what-can-i-do {
+    background-color: $color-apricot;
+}
+
 .what-can-i-do__header {
-    color: $color-periwinkle-gray;
+    color: $color-white;
     @extend %header;
 }
 
 .what-can-i-do__title {
-    color:  $color-fiord;
-    text-align: center;
-    font-size: 3rem;
+    color: $color-black;
+    text-align: left;
+    font-size: 2rem;
     padding: 1rem,
 }
 
 .what-can-i-do__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    color: $color-white;
 }
 
 .what-can-i-do__skill {
-    border: 0.1rem solid $color-periwinkle-gray;
+    border: 0.1rem solid $color-white;
     padding: 1rem;
     margin: 0.2rem;
     border-radius: 0.5rem;

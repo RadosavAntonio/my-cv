@@ -10,25 +10,21 @@
     ];
 #award
 .award
-    //- ☐ trophy to tittle
-    //- ☐ info to description
-    //- ☐ map2 to location
-    //- ☐ calendar to date
     .award__header=awardHeader
     each award in awardList
         .award__card
             .award__icon
-                span.my-cv__icon--trophy
+                span.my-cv__icon--
             .award__title=award.title
 
             .award__icon
-                span.my-cv__icon--info
+                span.my-cv__icon--
             .award__description=award.description
 
             .award__icon
-                span.my-cv__icon--map2
+                span.my-cv__icon--
             .award__location=award.location
 
             .award__icon
-                span.my-cv__icon--calendar
+                span.my-cv__icon--
             .award__date=award.date

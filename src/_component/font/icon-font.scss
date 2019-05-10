@@ -25,35 +25,35 @@
 
 .my-cv__icon--microsoftword:before {
   content: "\e900";
-  color: white;
+  color: $color-black;
 }
 .my-cv__icon--github:before {
   content: "\e901";
-  color: white;
+  color: $color-black;
 }
 .my-cv__icon--html5:before {
   content: "\e902";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--facebook:before {
   content: "\e903";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--google:before {
   content: "\e904";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--linkedin:before {
   content: "\e905";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--twitter:before {
   content: "\e906";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--skype:before {
   content: "\e907";
-  color: white;
+  color: $color-white;
 }
 .my-cv__icon--home3:before {
   content: "\e908";
@@ -84,6 +84,7 @@
 }
 .my-cv__icon--plus:before {
   content: "\ea0a";
+  color: $color-white;
 }
 .my-cv__icon--info:before {
   content: "\ea0c";

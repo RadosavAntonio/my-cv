@@ -1,3 +1,7 @@
+.experience {
+    background-color: $color-apricot_peach;
+}
+
 .experience__details,
 .experience__input {
     display:none;
@@ -8,12 +12,12 @@
 }
 
 .experience__header {
-    color: $color-periwinkle-gray;
+    color: $color-white;
     @extend %header;
 }
 
 .experience__title {
-    background-color: $color-gumbo;
+    background-color: $color-apricot_peach;
     color: $color-white;
     display: block;
     justify-content: space-between;
@@ -23,7 +27,7 @@
 }
 
 .experience__details {
-    border: 0.2rem solid $color-gumbo;
+    border: 0.2rem solid $color-white;
 }
 
 .experience__top {
@@ -51,11 +55,11 @@
     line-height: 1.2;
 
     &:nth-child(odd) {
-        background-color: $color-fantasy;
+        background-color: $color-white;
     }
 
     &:nth-child(even) {
-        background-color: $color-twilight;
+        background-color: beige;
     }
 }
 

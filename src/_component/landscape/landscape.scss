@@ -8,14 +8,14 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #EB9373;
+    background-color: $color-apricot;
     transition: 0.25s;
 }
 
 .landscape__button {
     display: block;
-    background-color: black;
-    color: white;
+    background-color: $color-black;
+    color: $color-white;
     position: fixed;
     top: 1rem;
     left: 1.5rem;
@@ -23,7 +23,7 @@
     padding: 0.8rem;
     border-radius: 1rem;
     text-decoration: none;
-    border: 0.1rem solid white;
+    border: 0.1rem solid $color-white;
 }
 
 .landscape__description {
@@ -53,7 +53,7 @@
     }
     
     #landscape:checked + .landscape {
-        top: -100%;
+        top: -110%;
     
         .landscape__message--show {
             display: block;
