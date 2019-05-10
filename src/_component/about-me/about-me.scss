@@ -3,20 +3,20 @@
 }
 
 .about-me__header {
-    color: $color-white;
-    @extend %header;
+    color: white;
+    @extend %header
 }
 
 .about-me__avatar {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-downriver;
+    border: 0.5rem solid white;
 }
 
 .about-me__avatar-wrapper {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-royal-blue
+    border: 0.5rem solid black;
 }
 
 .about-me__avatar-wrapper {
@@ -49,19 +49,19 @@
 
 .about-me__full-name,
 .about-me__title {
-    color: $color-white;
-    padding: 0 1rem 2rem;
+    color: white;
+    padding: 0 1rem 1rem;
     text-align: center;
-    color: $color-yellow-sea;
 }
 
 .about-me__slogan,
 .about-me__content {
     font-size: 1.7rem;
-    text-align: justify;
-    padding: 1rem;
-    text-indent: 3rem;
-    color: $color-sunglow;
+    padding: 0 1rem 3rem;
+    // text-indent: 3rem;
+    // aliniat de care nu este nevoie
+    color: black;
+    text-align: center;
 }
 
 .about-me__link-list {
@@ -74,10 +74,10 @@
     width: 80%;
     font-size: 3rem;
     text-decoration: none;
-    border: 0.1rem solid $color-gumbo;
+    border: 0.1rem solid #808000;
     border-radius: 1rem;
-    background-color: $color-white;
-    color: $color-gumbo;
+    background-color: white;
+    color: #808000;
     margin: 1rem auto;
     display: flex;
     justify-content: space-around;
