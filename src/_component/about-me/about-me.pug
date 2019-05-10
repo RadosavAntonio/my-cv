@@ -1,0 +1,41 @@
+-
+    var header = '#about me'
+    var imagePath = "asset/image/my-image.jpg"
+    var myFullName = "Antonio Radosav"
+    var myTitle = "Junior Web Developer"
+    var slogan = `Make any vision a reality!`
+    var iDesign = {
+        title: 'iDesign',
+        content: 'The goal is to build your business not just a website!',
+    }
+
+    var coolStuff = {
+        title: 'My CV online or document',
+        buttonList: [
+            {
+              url: 'https://github.com/radosavantonio/my-cv',
+              icon: 'github',
+              label: 'Visit my amazing CV on github.',
+            }
+        ]
+    }
+
+#about-me
+.about-me
+    .about-me__header=header
+    .about-me__avatar-wrapper
+        img.about-me__avatar(src=imagePath)
+    .about-me__full-name=myFullName
+    .about-me__title=myTitle
+    .about-me__slogan=slogan
+
+    .about-me__title=iDesign.title
+    .about-me__content=iDesign.content
+
+    .about-me__title=coolStuff.title
+    .about-me__link-list
+        each button in coolStuff.buttonList
+            a.about-me__link(href=button.url)
+                span.about-me__link-description=button.label
+                span(class=`my-cv__icon--${button.icon}`)
+
