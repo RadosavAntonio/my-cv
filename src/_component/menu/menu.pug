@@ -2,12 +2,12 @@
     var menuList =[
         {
             label: 'home',
-            icon: 'home',
+            icon: 'home3',
             link: '#landing-page',
         },
         {
             label: 'about me',
-            icon: 'wondering',
+            icon: 'wink2',
             link: '#about-me',
         },
         //- {
@@ -16,25 +16,25 @@
         //-     link: '#award',
         //- },
         {
+            label: 'what I can do',
+            icon: 'list2',
+            link: '#what-can-i-do',
+        },
+        {
             label: 'experience',
-            icon: 'airplane',
+            icon: 'power',
             link: '#experience',
         },
         {
-            label: 'what I can do',
-            icon: 'hammer',
-            link: '#what-can-i-do',
+            label: 'clients',
+            icon: 'briefcase',
+            link: '#client',
         },
-        //- {
-        //-     label: 'clients',
-        //-     icon: 'briefcase',
-        //-     link: '#client',
-        //- },
     ]
 
 #menu
 a.menu__go-to(href="#menu")
-    span.my-cv__icon--menu3
+    span.my-cv__icon--menu
 .menu
     .menu__list
         each menu in menuList
