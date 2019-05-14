@@ -1,9 +1,9 @@
 .client {
-    background-color: $color-apricot_peach;
+    background-color: $color-apricot;
 }
 
 .client__header {
-    color: $color-merlot;
+    color: $color-black;
     @extend %header;
 }
 
@@ -12,9 +12,9 @@
 }
 
 .client__image {
-    border: 0.1rem solid $color-merlot;
+    border: 0.1rem solid $color-olive;
     width: 200px;
     height: 200px;
-    // display: inline;
+    display: inline;
     padding: 1rem 1ren;
 }

@@ -2,10 +2,16 @@
     var awardHeader = '#awards'
     var awardList = [
         {
-            title: 'something',
-            description: 'something',
-            location: 'something',
-            date: 'something'
+            title: 'Best user friendly romanian banking website',
+            description: 'Distinction for the best user friendly romanian banking website. Al the information the comany want to present to the customers ar present and presented in a nice interactive way.',
+            location: 'Bucharest / Romania',
+            date: '2018'
+        },
+        {
+            title: 'Most useful academic website',
+            description: 'Distinction for the best university website based on simplicity and good information.',
+            location: 'London / United Kingdom',
+            date: '2019'
         },
     ];
 #award
@@ -14,17 +20,17 @@
     each award in awardList
         .award__card
             .award__icon
-                span.my-cv__icon--
+                span.my-cv__icon--glass2
             .award__title=award.title
 
             .award__icon
-                span.my-cv__icon--
+                span.my-cv__icon--briefcase
             .award__description=award.description
 
             .award__icon
-                span.my-cv__icon--
+                span.my-cv__icon--earth
             .award__location=award.location
 
             .award__icon
-                span.my-cv__icon--
+                span.my-cv__icon--calendar
             .award__date=award.date

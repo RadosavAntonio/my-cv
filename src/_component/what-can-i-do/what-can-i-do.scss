@@ -3,12 +3,12 @@
 }
 
 .what-can-i-do__header {
-    color: $color-white;
+    color: $color-black;
     @extend %header;
 }
 
 .what-can-i-do__title {
-    color: $color-black;
+    color: $color-white;
     text-align: left;
     font-size: 2rem;
     padding: 1rem,
