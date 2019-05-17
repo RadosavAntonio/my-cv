@@ -1,5 +1,9 @@
 .about-me {
-    background-image: radial-gradient($color-apricot, $color-merlot);
+    background-image: radial-gradient(
+        ellipse,
+        $color-apricot, 
+        $color-merlot
+    );
 }
 
 .about-me__header {

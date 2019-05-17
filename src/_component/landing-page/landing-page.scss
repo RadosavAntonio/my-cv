@@ -3,25 +3,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: radial-gradient($color-apricot, $color-merlot);
-  // appricot and merlot colors
-}
+  background-image: radial-gradient(ellispe, $color-apricot, $color-merlot);
 
-.landing-page__wrapper {
-  text-align: center;
-}
+  &__wrapper {
+    text-align: center;
+  }
 
-.landing-page__name {
-  padding-bottom: 0.2rem;
-  font-size: 4rem;
-  text-transform: uppercase;
-  color: $color-white;
-}
+  &__name {
+    padding-bottom: 0.2rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: $color-white;
+  }
 
-.landing-page__title {
-  font-size: 2.8rem;
-  text-transform: capitalize;
-  color: $color-black;
+  &__title {
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    color: $color-black;
+  }
 }
 
 .landing-page__social {
