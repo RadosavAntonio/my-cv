@@ -14,7 +14,7 @@
   "//": "CUSTOM CONFIGURATION",
   "config": {
     "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "http://github.com/radosavantonio/my-cv",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
@@ -43,10 +43,10 @@
     "entry": {
       "cssExternal": "style**.{scss,sass}",
       "cssEmbed": "embed**.{scss,sass}",
-      "cssModular": true,
+      "cssModular": false,
       "css": {
-        "embed": true,
-        "external": false
+        "embed": false,
+        "external": true
       }
     }
   },

@@ -13,12 +13,13 @@
         title: 'My CV online or document',
         buttonList: [
             {
+                //- a: target="_blank"
+                //- url: a(href="https://github.com/radosavantonio/my-cv", target="_blank"),
                 url: 'https://github.com/radosavantonio/my-cv',
                 icon: 'github',
                 label: 'Visit my amazing CV on github',
             },
             {
-                
                 url: "asset/doc/antonioRADOSAV-cv.docx",
                 icon: 'microsoftword',
                 label: 'Download my CV in doc format',
@@ -41,7 +42,15 @@
     .about-me__title=coolStuff.title
     .about-me__link-list
         each button in coolStuff.buttonList
-            a.about-me__link(href=button.url)
+            //- a.about-me__link(
+            //-     href=button.url 
+            //-     target="_blank"
+            //- )
+            a(
+                href=button.url 
+                target="_blank"
+                class="about-me__link"
+            )
                 span.about-me__link-description=button.label
                 span(class=`my-cv__icon--${button.icon}`)
 

@@ -1,9 +1,12 @@
+@import "../config/colour.scss";
+@import "../config/common.scss";
+
 .landing-page {
   min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: radial-gradient(ellispe, $color-apricot, $color-merlot);
+  background-image: radial-gradient(ellipse, $color-apricot, $color-merlot);
 
   &__wrapper {
     text-align: center;
