@@ -1,6 +1,6 @@
 -
     var header = '#about me'
-    var imagePath = "asset/image/my-image.jpg"
+    var imagePath = `${baseUrl}/asset/image/my-image.jpg`
     var myFullName = "Antonio Radosav"
     var myTitle = "Junior Web Developer"
     var slogan = `Make any vision a reality!`
@@ -13,8 +13,6 @@
         title: 'My CV online or document',
         buttonList: [
             {
-                //- a: target="_blank"
-                //- url: a(href="https://github.com/radosavantonio/my-cv", target="_blank"),
                 url: 'https://github.com/radosavantonio/my-cv',
                 icon: 'github',
                 label: 'Visit my amazing CV on github',
@@ -53,4 +51,3 @@
             )
                 span.about-me__link-description=button.label
                 span(class=`my-cv__icon--${button.icon}`)
-

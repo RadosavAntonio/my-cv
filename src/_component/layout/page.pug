@@ -4,9 +4,9 @@ html
   head
     title=myTitleForGoogleSearch
     meta(name="description", content=myDescriptionForGoogleSearch)
+    link(rel="stylesheet", href=`${baseUrl}/style.css`)
 
     if config.entry.css.embed
       link(rel="stylesheet" href=`${embedPath}` inline)
   body
     block awesome-content
-    link(rel="stylesheet", href=`${baseUrl}style.css`)
